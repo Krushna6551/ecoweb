@@ -32,7 +32,7 @@ const AllProduct = () => {
 
   return (
     <div className="container my-4">
-      <h2>All Products</h2>
+      <h2>All item</h2>
       <div className="row">
         {data.slice(0, showAll ? data.length : 30).map((item) => (
           <div key={item.id} className="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
